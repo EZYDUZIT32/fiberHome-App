@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1092305007572",
+    "project_id": "fiberhomeapp-49cf3",
+    "storage_bucket": "fiberhomeapp-49cf3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092305007572:android:4b660fefcd0740e9569c41",
+        "android_client_info": {
+          "package_name": "com.example.fiberhomeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092305007572-bphf8c8gk86omeectjaujrj41tidruhv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fiberhomeapp",
+            "certificate_hash": "0f254aa2b4909e54689ed8d1c2f62f1dfb81e548"
+          }
+        },
+        {
+          "client_id": "1092305007572-j6umveh43lu3jmdm3ehf6bhrgmtcvjdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOH5oi8zM7B3dWmf5_dCqp52jd6N1kuiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092305007572-j6umveh43lu3jmdm3ehf6bhrgmtcvjdd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/fiberblue"
+    android:layout_height="match_parent"
+    tools:context=".twentymbpscard">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarone"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/fiberblue">
+
+        <TextView
+            android:id="@+id/getty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="NDOVU PACKAGE"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="390dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbarone"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/fiberblue">
+
+            <ImageView
+                android:id="@+id/product_image"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/twentymbpslogoone" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardviewfive"
+                android:layout_width="850dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/product_image"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/fiberblue"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="33dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/black"
+                    android:backgroundTint="@color/fiberblue"
+                    android:elevation="3dp"
+                    android:src="@drawable/wifi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="0.3in"
+                    android:text="Upto 20 mbps download speed"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold|italic" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardvieweleven"
+                android:layout_width="850dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/cardviewfive"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/fiberblue"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="34dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/fiberblue"
+                    android:elevation="3dp"
+                    android:src="@drawable/wifi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="0.3in"
+                    android:text="Upto 20mbps upload speed"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold|italic" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardviewsix"
+                android:layout_width="850dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/cardvieweleven"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/fiberblue"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="34dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/fiberblue"
+                    android:elevation="3dp"
+                    android:src="@drawable/wifi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="0.3in"
+                    android:text="Unlimited data usage"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold|italic" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardviewseven"
+                android:layout_width="850dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/cardviewsix"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/fiberblue"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="36dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/fiberblue"
+                    android:elevation="3dp"
+                    android:src="@drawable/wifi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="0.3in"
+                    android:text="Unlimited bandwidth"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold|italic" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardvieweight"
+                android:layout_width="850dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/cardviewseven"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/fiberblue"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="34dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/fiberblue"
+                    android:elevation="3dp"
+                    android:src="@drawable/wifi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="0.3in"
+                    android:text="Free Router"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold|italic" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardviewnine"
+                android:layout_width="850dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/cardvieweight"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/fiberblue"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/fiberblue"
+                    android:elevation="3dp"
+                    android:src="@drawable/wifi" />
+
+                <TextView
+                    android:layout_width="375dp"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="0.3in"
+                    android:text="Free Installation"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold|italic" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardviewten"
+                android:layout_width="850dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/cardviewnine"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/fiberblue"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/fiberblue"
+                    android:elevation="3dp"
+                    android:src="@drawable/wifi" />
+
+                <TextView
+                    android:layout_width="375dp"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="0.3in"
+                    android:text="Ksh.4500 per month"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold|italic" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/proceedbtn"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardviewten"
+                android:layout_gravity="center"
+                android:layout_marginLeft="98dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttons"
+                android:padding="2dp"
+                android:text="Get Connected"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="19sp" />
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

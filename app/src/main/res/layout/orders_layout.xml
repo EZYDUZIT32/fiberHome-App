@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:background="@color/fiberblue">
+
+        <TextView
+            android:id="@+id/order_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Name:"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:layout_alignParentLeft="true"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/order_second_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Second Name:"
+            android:layout_below="@id/order_first_name"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:layout_alignParentLeft="true"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/order_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Phone Number:"
+            android:layout_below="@id/order_second_name"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:layout_alignParentLeft="true"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/order_email_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Address:"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/order_phone_number"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/order_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location:"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/order_email_address"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/order_residence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Residence:"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/order_location"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+            android:id="@+id/order_mbps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MBPS:"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/order_residence"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+            android:id="@+id/order_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date Time:"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/order_mbps"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="15dp"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
